@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6c93c2a563.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/shoping.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h4><a href="#" title="logo">N<span>O</span>RD<span>I</span>C</a></h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="homework.html">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="user_actions">
+                <a href="#" title="icon search"><i class="fas fa-search"></i></a>
+                <a href="login.html" title="icon user"><i class="far fa-user"></i></a>
+                <a href="#" title="icon shopping"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="shoping-cart">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Images</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Bakix Furniture</td>
+                        <td>$130.00</td>
+                        <td>
+                            <input type="number" value="1" min="0" max="50" step="1" />
+                        </td>
+                        <td>$130.00</td>
+                        <td class="remove-text">x</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Sujon ChairSet</td>
+                        <td>$120.50</td>
+                        <td>
+                            <input type="number" value="1" min="0" max="50" step="1" />
+                        </td>
+                        <td>$120.50</td>
+                        <td class="remove-text">x</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- input for cart -->
+        <div class="btn-cart">
+            <button type="button" class="btn Coupon">Coupon code</button>
+            <button type="button" class="btn btn-success">Apply coupon</button>
+            <button type="button" class="btn btn-danger">Update cart</button>
+        </div>
+        <div class="cart-totals">
+            <div class="totals-title">
+                <span>Cart Totals</span>
+            </div>
+            <div class="table-totals">
+                <div class="row-1">
+                    <span class="text">Subtotal</span>
+                    <span class="price">$250.00</span>
+                </div>
+                <div class="row-2">
+                    <span class="text">Total</span>
+                    <span class="price">$250.00</span>
+                </div>
+            </div>
+            <div class="btn-check">
+                <button type="button" class="btn btn-danger proc">
+                    proceed to checkout
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg_footer">
+            <div class="container">
+                <div class="row">
+                    <!-- column 1 -->
+                    <div class="footer_column1 col-md-3">
+                        <h4>
+                            <a href="#" title="logo">N<span>O</span>RD<span>I</span>C</a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                            fuga iste aspernatur, ipsam enim laudantium repellat magni quam
+                            nam aut minima a eligendi officia suscipit in sit maxime!
+                            Minima, explicabo!
+                        </p>
+                        <div class="questions_contact">
+                            <img src="assets/images/contact.png" alt="questions contact" />
+                        </div>
+                    </div>
+
+                    <!-- column 2 -->
+                    <div class="footer_column2 col-md-3">
+                        <h4>Social Media</h4>
+                        <div class="social_media">
+                            <ul>
+                                <li><a href="#" target="_blank">Facebook</a></li>
+                                <li><a href="#" target="_blank">Twitter</a></li>
+                                <li><a href="#" target="_blank">Behance</a></li>
+                                <li><a href="#" target="_blank">Dribbble</a></li>
+                                <li><a href="#" target="_blank">Linkedin</a></li>
+                                <li><a href="#" target="_blank">Youtube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="footer_column3 col-md-3">
+                        <h4>Location</h4>
+                        <div class="Location">
+                            <ul>
+                                <li><a href="#" target="_blank">New York</a></li>
+                                <li><a href="#" target="_blank">Tokyo</a></li>
+                                <li><a href="#" target="_blank">Dhaka</a></li>
+                                <li><a href="#" target="_blank">Chittagong</a></li>
+                                <li><a href="#" target="_blank">China</a></li>
+                                <li><a href="#" target="_blank">Japan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="footer_column4 col-md-3">
+                        <h4>About</h4>
+                        <div class="About">
+                            <ul>
+                                <li><a href="#" target="_blank">Terms & Conditions</a></li>
+                                <li><a href="#" target="_blank">Privacy Policy</a></li>
+                                <li><a href="#" target="_blank">Contact Us</a></li>
+                                <li><a href="#" target="_blank">FAQ</a></li>
+                                <li><a href="#" target="_blank">Wholesale</a></li>
+                                <li><a href="#" target="_blank">Direction</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
