@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(images/introduction_s825.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: rgba(0, 0, 0,0.6);
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.logo {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.logo h4 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.logo h4 a span{
+    color: brown;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 12px;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding: 17px;
+}
+.nav-links a:hover{
+    color: brown;
+    background-color: #fff;
+    width: 100%;
+    height: 56px;
+}
+.user_actions a{
+    color:  rgb(226, 226, 226);
+}
+.user_actions a:hover{
+    color: brown;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.user_actions i{
+    padding: 5px;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.showing{
+    border: 1px solid #848484;
+    padding: 11px;
+    margin: 15px 0px;
+    display: block;
+    width: 300px;
+    color: #585858;
+    font-weight: bold;
+}
+.view_product.col-md-4 {
+    padding: 2px;
+}
+.detail_product {
+    background: antiquewhite;
+    margin: 1px;
+}
+.detail_product img {
+    width: 100%;
+    height: 246px;
+    padding: 6px;
+}
+.hover-img {
+    width: 94%;
+    height: 234px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    padding: 6px;
+    transform: scale(1,1);
+}
+.hover-img:hover{
+    background: rgba(0,0,0,.6);
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    transform: scale(0,0);
+    transition: 1.5s ease-in;
+}
+.detail_product p{
+    color: #FA4727;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 7px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+a.product-name {
+    text-decoration: none;
+}
+.detail_product a h3{
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 7px;
+    margin-bottom: 4px;
+}
+.detail_product span{
+    color: #848484;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+span.sale{
+    color: #959191;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.col-md-3{
+    margin-top: 60px;
+}
+.search_by{
+    margin: 7px 0px;
+    
+}
+.search_by p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 0px;
+}
+.form-control {
+    display: inline-block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.search_by span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff5252;
+    position: absolute;
+    top: 59px;
+    right: 20px;
+}
+.search_by span i {
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 13px;
+}
+hr{
+    border-style: dashed; 
+}
+.shop_by p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 0px;
+    margin-bottom: 10px;
+}
+.shop_by ul{
+    padding-left: 10px;
+}
+.shop_by ul li{
+    list-style: none;
+    color: #848484;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.recent_product.row {
+    position: relative;
+    margin-bottom: 19px;
+}
+.recent_img.col-md-4 {
+    padding: 0;
+}
+.all_recent_product p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 0px;
+}
+.recent_img.col-md-6 {
+    background: cadetblue;
+    padding: 1px;
+    width: 100px;
+    height: 100px;
+}
+img.inlinen_img {
+    width: 100px;;
+    height: 100%;
+}
+.info.col-md-8 p{
+    margin-bottom: 0px;
+}
+.info.col-md-8 p i{
+    color: #ffb142;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.info.col-md-8 h3 a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+.info.col-md-8 span{
+    font-size: 12px;
+    color: #585858;
+    font-weight: bold
+}
+.advert_banner img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background: url(images/introduction_s825.jpg) center no-repeat;
+    margin: 5px 0px;
+}
+.bg_footer{
+    background: rgba(0,0, 0,0.8);
+}
+.footer_column1.col-md-3 h4{
+    border: 1px dashed brown;
+    width: 170px;
+    height: 40px;
+    position: relative;
+}
+.footer_column1.col-md-3 h4 a{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+.footer_column1.col-md-3 h4 a span{
+    color: brown;
+}
+.footer_column1.col-md-3 p{
+    color: #f7f1e3;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.questions_contact img{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 2px;
+}
+footer h4{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li{
+   list-style: none;
+   line-height: 34px;
+   
+}
+footer ul li a{
+    color: #f7f1e3;
+    font-size: 16px;
+}
+footer ul li a:hover{
+    color: brown;
+    text-decoration: none;
+
+}
+@media screen and (max-width: 1024px){
+    .nav-links {
+        width: 60%;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        overflow-x: hidden;
+        
+    }
+    .nav-links{
+        position: absolute;
+        height: 92vh;
+        right: 0;
+        top: 6.3vh;
+        background: #b33939;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .user_actions{
+        display: none; 
+    }
+    .burger{
+        display: block;
+    }
+}
+/* .nav-active{
+    transform: translateX(0%);
+} */

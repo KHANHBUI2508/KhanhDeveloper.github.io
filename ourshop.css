@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+.new_input{
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background: greenyellow;
+    text-align: center;
+    margin: 5px 0 25px 0;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
+span.price{
+    color: red;
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px 20px 0 0 ;
+}
+.corner_price{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #84817a;
+}
+p{
+    color: #84817a;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+ul{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+ul li{
+    list-style: none;
+    letter-spacing: 1px;
+}
+.form-group{
+    display: inline;
+}
+.form-group label{
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-control{
+    width: 100px;
+    display: inline-block;
+}
+select#sel1 {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+i.fab.fa-gratipay {
+    color: #ff5252;
+    font-size: 25px;
+    padding: 10px;
+}
+input[type="submit"]{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    background: #ff4436;
+    border: none;
+    border-radius: 5px;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #ff4436;
+    border-color: #ff4436;
+}
+.title {
+    text-align: center;
+}
+.title span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.detail_related{
+    border-bottom: 1px solid #218c74;
+    padding: 15px 0px;
+}
+.detail_related p{
+    color: #ff4436;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+}
+.name_pro_related{
+    font-size: 18px;
+    display: block;
+}
+.detail_related > .price{
+    font-size: 14px;
+    font-weight: 500;
+}
+span.icon_related {
+    float: right;
+    margin-top: 20px;
+}
